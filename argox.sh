@@ -9,7 +9,7 @@ WS_PATH_DEFAULT='argox'
 WORK_DIR='/etc/argox'
 TEMP_DIR='/tmp/argox'
 TLS_SERVER=addons.mozilla.org
-METRICS_PORT='3333'
+METRICS_PORT='11803'
 CDN_DOMAIN=("cn.azhz.eu.org" "achk.cloudflarest.link" "jp.cloudflarest.link" "www.who.int" "skk.moe" "time.cloudflare.com" "csgo.com")
 
 trap "rm -rf $TEMP_DIR; echo -e '\n' ;exit 1" INT QUIT TERM EXIT
